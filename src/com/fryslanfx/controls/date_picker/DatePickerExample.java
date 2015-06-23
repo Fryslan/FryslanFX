@@ -13,7 +13,7 @@ import java.time.LocalDate;
  * User: Fryslan
  */
 public class DatePickerExample extends Application {
-    
+
     public static void main(String[] args) {
         launch(args);
     }
@@ -42,7 +42,6 @@ public class DatePickerExample extends Application {
             dateLabel.setText("You selected : " + selectedDate.toString());
         });
         root.getChildren().add(picker);
-
 
         //Set Scene to stage and show the stage
         stage.setScene(scene);
